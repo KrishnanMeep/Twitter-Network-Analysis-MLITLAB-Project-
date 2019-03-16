@@ -26,10 +26,10 @@ def PullTweets( query, prevId, file, t ):
 
 if __name__ == '__main__':
 	#Set of keys for twitter authentication
-	consumer_key = "KA4EcNSW3zMc6V7s1EUGrW9BT"
-	consumer_secret = "f1BXDBB1NQjHiEAPrnFmPnOUzLTUDUpyYn4gVREqpeZLha17z0"
-	access_token = "3175602566-XPGiAEmA1Rz0iDI68DB3ekUWzdYzxgRR0ICNtZW"
-	access_token_secret = "OlAqs0o1LnbDWVKW3MkudLiYuHU7vZQdqNi2YFvosfM2s"
+	consumer_key = "#"
+	consumer_secret = "#"
+	access_token = "#"
+	access_token_secret = "#"
 
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_token, access_token_secret)
